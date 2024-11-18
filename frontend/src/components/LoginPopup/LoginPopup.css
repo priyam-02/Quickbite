@@ -1,0 +1,122 @@
+/* Disable background interactions */
+body.modal-active {
+    overflow: hidden; /* Prevent scrolling */
+    pointer-events: none; /* Disable interactions with background */
+  }
+  
+  /* Allow interactions inside the popup */
+  body.modal-active .login-popup {
+    pointer-events: auto; /* Re-enable interactions for the popup */
+  }
+
+.login-popup{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: #00000090;
+    display: grid;
+}
+
+.login-popup-container{
+    place-self: center;
+    width: max(23vw, 330px);
+    color: #808080;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 25px 25px;
+    border-radius: 8px;
+    font-size: 14px;
+    animation: scaleUp 0.5s ease-out;
+
+
+}
+
+.closing .login-popup-container {
+    animation: scaleDown 0.4s ease-out forwards;
+  }
+
+.login-popup-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+
+.login-popup-title img{
+    width: 27px;
+    cursor: pointer;
+}
+
+.login-popup-inputs{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.login-popup-inputs input{
+    outline: none;
+    border: 1px solid #c9c9c9;
+    padding: 10px;
+    border-radius: 4px;
+}
+.login-popup-inputs input:focus{
+   border: 1px solid tomato;
+}
+
+.login-popup-container button{
+    place-self: center;
+    border: none;
+    width: 60%;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: tomato;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 500;
+
+}
+
+.login-popup-condition{
+    display: flex;
+    align-items: start;
+    gap: 8px;
+    margin-top: -15px;
+}
+
+.login-popup-condition input{
+    margin-top: 5px;
+    accent-color: tomato;
+}
+
+.login-popup p span{
+    color: tomato;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+@keyframes scaleUp {
+    from {
+      transform: scale(0.9);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+
+  @keyframes scaleDown {
+    from {
+      transform: scale(1);
+      opacity: 1;
+    }
+    to {
+      transform: scale(0.9);
+      opacity: 0;
+    }
+  }

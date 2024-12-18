@@ -4,7 +4,7 @@ Quickbite is here to make your food ordering experience as easy and enjoyable as
 Whether you’re in the mood for a quick snack or planning a cozy dinner at home, Quickbite has you covered. 
 You can browse through delicious menus, filter your options based on categories like Salads, noodles, Deserts to find exactly what you’re craving, and place your order in just a few clicks. 
 With secure login, a smooth checkout process, and easy payment options, getting your favorite meals delivered has never been this simple. 
-Quickbite takes the hassle out of ordering food so you can focus on enjoying your meal!
+Plus, Quickbite comes with a powerful admin panel that makes managing menus, orders, and customers a breeze. Quickbite takes the hassle out of ordering food so you can focus on enjoying your meal!
 
 ## Features
 1. **User Profiles:** Create and manage your personal profile to track your events and RSVPs.
@@ -61,35 +61,30 @@ _Additional Notes_
 
 
 
-### 3. **Login/Sign Up page:**
-<kbd><img width="1512" alt="Screenshot 2024-05-07 at 12 30 41 PM" src="https://github.com/priyam-02/Outdoor_Adventure_Meetup/assets/108848788/c43faa6c-efa5-4c15-9334-5a6b8ca5d678"></kbd>
+### 3. **Login/Sign Up:**
+<kbd><img width="1512" alt="Screenshot 2024-12-13 at 1 26 16 PM" src="https://github.com/user-attachments/assets/3e6735e4-bc8f-4034-991d-f720ce18f490" /></kbd>
 
-<kbd><img width="1512" alt="Screenshot 2024-05-07 at 12 30 51 PM" src="https://github.com/priyam-02/Outdoor_Adventure_Meetup/assets/108848788/89c8ee3d-bcd1-4aa4-86e2-da4432beabdf"></kbd>
-
-
-
-### 4. **Create New Event Page:**
-<kbd><img width="1512" alt="Screenshot 2024-05-07 at 12 30 23 PM" src="https://github.com/priyam-02/Outdoor_Adventure_Meetup/assets/108848788/df6d3761-3c66-4382-8b1f-f418a6bce78c"></kbd>
-
-
-
-### 5. **Profile Page:**
-<kbd><img width="1512" alt="Screenshot 2024-05-07 at 12 30 30 PM" src="https://github.com/priyam-02/Outdoor_Adventure_Meetup/assets/108848788/5b7aa17e-09d0-478e-8ddb-0c2e13d28540"></kbd>
-
-
-
-### 6. **About Us Page:**
-<kbd><img width="1512" alt="Screenshot 2024-05-07 at 12 31 09 PM" src="https://github.com/priyam-02/Outdoor_Adventure_Meetup/assets/108848788/0c7027c3-fcc3-4162-b717-486b88369dbb"></kbd>
-
-<kbd><img width="1512" alt="Screenshot 2024-12-18 at 11 04 49 AM" src="https://github.com/user-attachments/assets/7e58c532-5d7c-4e87-9ee6-d2a01153fa4c" /></kbd>
+<kbd><img width="1512" alt="Screenshot 2024-12-13 at 1 26 20 PM" src="https://github.com/user-attachments/assets/41767347-98a5-46a2-97fe-d711a1a23259" /></kbd>
 
 
 
 
-### 7. **Contact Us Page:**
-<kbd><img width="1512" alt="Screenshot 2024-05-07 at 12 31 23 PM" src="https://github.com/priyam-02/Outdoor_Adventure_Meetup/assets/108848788/2345f715-29b0-44bd-a888-4025a0abbe1f"></kbd>
 
-<kbd><img width="1512" alt="Screenshot 2024-12-18 at 11 05 00 AM" src="https://github.com/user-attachments/assets/85e0b864-ea05-426c-9160-9562e2d78527" /></kbd>
+### 4. **Add to Cart:**
+<kbd><img width="1512" alt="Screenshot 2024-12-13 at 1 26 09 PM" src="https://github.com/user-attachments/assets/0f647850-5025-4823-9d60-f0de4b0471d8" /></kbd>
+
+
+
+
+### 5. **Checkout:**
+<kbd><img width="1512" alt="Screenshot 2024-12-18 at 1 06 56 PM" src="https://github.com/user-attachments/assets/a4e5a639-6ee3-4eb6-87cc-46919311b464" /></kbd>
+
+
+
+
+### 6. **Contact Us:**
+<kbd><img width="1512" alt="Screenshot 2024-12-13 at 1 25 32 PM" src="https://github.com/user-attachments/assets/7bc507a6-a747-4d1d-a7f0-4789b6ee3839" /></kbd>
+
 
 
 

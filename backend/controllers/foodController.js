@@ -1,3 +1,4 @@
+import { log } from "console";
 import foodModel from "../models/foodModel.js";
 
 // File System, fs is a core built-in module of node.js, it is used to read and write files. 
@@ -29,4 +30,32 @@ const addFood = async(req, res) => {
 
 }
 
-export { addFood }; // exporting addFood function.
+// all food list
+const listFood = async(req, res) => {
+    try {
+        const foods = await foodModel.find({}); //we will get all the data of food items from the database.
+        res.json({ success: true, foods: foods}); // send the data to the client side.
+    } catch (error) {
+        console.log(error);
+        res.json({ success: false, message: "Error"})
+    }
+
+}
+
+// remove food item
+const removeFood = async(req, res) => {
+    try {
+        const food = await foodModel.findById(req.body.id) // find the food item by id.
+        fs.unlink(`uploads/${food.image}`, () => {})
+
+        await foodModel.findByIdAndDelete(req.body.id); // delete the food item from the database.
+        res.json({ success: true, message: "Food removed"});
+    } catch (error) {
+        console.log(error);
+        res.json({ success: false, message: "Error"})
+        
+    }
+}
+
+
+export { addFood, listFood, removeFood }; // exporting function.
